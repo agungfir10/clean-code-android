@@ -133,6 +133,24 @@ fun showRestaurants()                     +->fun showRestaurants()
 - No more scrolling
 - Easy to understand what the app does
 
+## Code Styles
+
+- https://github.com/ribot/android-guidelines
+
+## Clean Your Code : Summary
+
+- How to identify which portions of the code can be refactored
+- How to split or shortent huge methods
+- How to keep the logic simple and refactor existing code
+- How to use Enum for harcoded content withing the app
+- How to consistenly clean and refactor code with the use of IDE
+- How to use Kotlin Collection operators to simplify and avod nesting of code
+- How to use correctly use null checks to catch bugs faster
+- How to split responsibilities of giant class this reducsing its size
+- How to organize project's classes by applying package structuring strategies
+- How to apply code styles and guidelines for consistent code base
+- How to keep the code clean and easy to maintain
+
 ### Shortcut
 
 - Ctrl + Alt + M --> Refactor code to function
