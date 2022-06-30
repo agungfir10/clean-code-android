@@ -61,4 +61,15 @@ fun showRestaurants()                     +->fun showRestaurants()
 - Don't re-invent the wheel
     - If the functionallity already exists and is stable
     - If your implementation adds nothing new
+
+## Use Enum For Static Content
+
+- What is enum ? An enum is a special "class" that represents a group of contents (unchangeable
+  variables, like final variables)
+- When should you use enums?
+    - Store static content based on multiple predefined cases
+        - Entity type with multiple hardcoded values
+        - Screen type with multiple layout variations
+    - Define class types insted of Strings for predefined entity types
+        - View types for different ViewHolders in Adapter
     
