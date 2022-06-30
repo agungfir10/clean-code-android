@@ -101,6 +101,38 @@ fun showRestaurants()                     +->fun showRestaurants()
 - sortedBy
 - Find
 
+## When to check for null, Fail Fast
+
+- Checking for null values within your app is beneficial
+- When should you check for null?
+    - Whenever the null values are obtained from external sources
+    - Whenever the null values are out of your control
+- When should you NOT check for null?
+    - When the field/variable should NOT be null according to your flow
+
+## Split App Responsibilities
+
+- Have your logic delegated to specialized entities
+- Avoid having god objects i.e. Activities
+- Prevent having to copy paste
+- Encourage code reusability
+- Less code to maintain and update
+
+## Structure your packages
+
+- Optimize how your porject's classess are arranged
+- Adopt a package structuring strategy
+    - Package by type
+    - Package by layer
+    - Package by feature
+- Need to expand all folders
+- Keep scrolling up and down
+- Need to understand dependencies
+- No idea what the app does
+- Less folders to expand
+- No more scrolling
+- Easy to understand what the app does
+
 ### Shortcut
 
 - Ctrl + Alt + M --> Refactor code to function

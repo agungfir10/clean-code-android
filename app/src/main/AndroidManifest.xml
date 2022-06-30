@@ -15,7 +15,7 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".RestaurantsActivity"
+            android:name=".fatures.restaurants.RestaurantsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

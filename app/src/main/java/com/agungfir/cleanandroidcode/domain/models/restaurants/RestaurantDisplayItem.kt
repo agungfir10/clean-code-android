@@ -1,4 +1,6 @@
-package com.agungfir.cleanandroidcode
+package com.agungfir.cleanandroidcode.domain.models.restaurants
+
+import com.agungfir.cleanandroidcode.domain.models.restaurants.RestaurantType
 
 data class RestaurantDisplayItem(
     val id: Int,

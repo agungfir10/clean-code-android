@@ -1,4 +1,4 @@
-package com.agungfir.cleanandroidcode
+package com.agungfir.cleanandroidcode.fatures.restaurants
 
 import android.os.Build
 import android.view.LayoutInflater
@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import com.agungfir.cleanandroidcode.R
+import com.agungfir.cleanandroidcode.domain.models.restaurants.RestaurantDisplayItem
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.item_restaurant.view.*
 

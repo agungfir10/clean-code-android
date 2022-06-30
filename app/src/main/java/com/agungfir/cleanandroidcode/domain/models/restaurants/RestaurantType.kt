@@ -1,4 +1,6 @@
-package com.agungfir.cleanandroidcode
+package com.agungfir.cleanandroidcode.domain.models.restaurants
+
+import com.agungfir.cleanandroidcode.R
 
 enum class RestaurantType(val text: String, val drawableId: Int, val textColorId: Int) {
     TAKE_AWAY("Take Away", R.drawable.take_away, R.color.orange),
