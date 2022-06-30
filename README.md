@@ -81,6 +81,26 @@ fun showRestaurants()                     +->fun showRestaurants()
 - Rename classes, methods or variables with poor naming
 - Reorder methods within classes
 
+## Collectiokn Operators: Filter and Map
+
+- When you work on lists you can use collection operators
+    - Write more concise code
+    - Reduce loops nesting
+    - Create sequential actions that makes code more readable
+- Filter
+- Map
+
+### Sort and Find
+
+- Write more concise code
+- Reduce loops nesting
+- Create sequential actions that makes code more readable
+
+- Map
+    - You can use onEach in Kotlin 1.4
+- sortedBy
+- Find
+
 ### Shortcut
 
 - Ctrl + Alt + M --> Refactor code to function
