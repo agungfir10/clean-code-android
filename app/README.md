@@ -53,4 +53,12 @@ fun showRestaurants()                     +->fun showRestaurants()
     - Identify core actions
     - Create new smaller methods for each action
     - Chain new methods inside the big method
+
+## Simple Logic
+
+- Always look for simpler implementations
+    - Make sure to refactor your initial logic if something simpler can be implemented
+- Don't re-invent the wheel
+    - If the functionallity already exists and is stable
+    - If your implementation adds nothing new
     
