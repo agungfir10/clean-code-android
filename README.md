@@ -72,4 +72,16 @@ fun showRestaurants()                     +->fun showRestaurants()
         - Screen type with multiple layout variations
     - Define class types insted of Strings for predefined entity types
         - View types for different ViewHolders in Adapter
-    
+
+## Clean Your Code Often
+
+- Reformat your code and remove unused imports
+    - Using the built-in Android Studio formatting shortcut Ctrl + Alt + L or Cmd + Option + L
+- Remove unnecessary logs and commendted code
+- Rename classes, methods or variables with poor naming
+- Reorder methods within classes
+
+### Shortcut
+
+- Ctrl + Alt + M --> Refactor code to function
+- Ctrl + B --> Goto Function
